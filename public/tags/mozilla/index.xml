@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mozilla on tanner filip</title>
+    <link>https://tannerfilip.org/tags/mozilla/</link>
+    <description>Recent content in Mozilla on tanner filip</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Mar 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tannerfilip.org/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mozilla at SCALE13x</title>
+      <link>https://tannerfilip.org/blog/mozilla-at-scale13x/</link>
+      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tannerfilip.org/blog/mozilla-at-scale13x/</guid>
+      <description>To put it briefly, the event was amazing. I’m not very good at writing up stuff like this, so I’ll break it down by the day. If you want to skip directly to the event itself, skip to the bottom. A lot of this is just a summary of our days. Most of it focuses on Michaela and I, because we became partners in crime quickly after meeting. ctrl+F “actual expo stuff” will get you to the important stuff.</description>
+    </item>
+    
+  </channel>
+</rss>

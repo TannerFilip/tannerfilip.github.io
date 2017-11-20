@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mozilladiscourse on tanner filip</title>
+    <link>https://tannerfilip.org/tags/mozilladiscourse/</link>
+    <description>Recent content in Mozilladiscourse on tanner filip</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Feb 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tannerfilip.org/tags/mozilladiscourse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Update on Discourse</title>
+      <link>https://tannerfilip.org/blog/update-on-discourse/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tannerfilip.org/blog/update-on-discourse/</guid>
+      <description>Earlier this week I wrote about the status of Discourse within the Mozilla community. The next day, we recieved access to Mozilla Labs’ AWS account, and almost immediately started setting Discourse up. We now have Discourse running, so please feel free to use it! Occasionally signing doesn’t work the first time. Reload the page and try again if this happens. Jan Bambach is working to make Discourse fit Mozilla’s style, and the theme is shaping up really well.</description>
+    </item>
+    
+    <item>
+      <title>The Status of Discourse</title>
+      <link>https://tannerfilip.org/blog/the-status-of-discourse/</link>
+      <pubDate>Sat, 08 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tannerfilip.org/blog/the-status-of-discourse/</guid>
+      <description>Discourse is something that Mozillians have been asking for for a while. For those unfamiliar with it, Discourse is something like forums combined with mailing lists. I’ve been fortunate enough to work with Mozilla Community I.T. in this project.
+Background We started back in early September 2013, planning to install and configure Discourse with Puppet.
+Discourse was to be hosted on HP Cloud, using EnterpriseDB for PostgreSQL hosting. HP Cloud stopped offering EnterpriseDB in late 2013, leaving us to set up our own Postgres cluster, something none of us had done before.</description>
+    </item>
+    
+  </channel>
+</rss>
