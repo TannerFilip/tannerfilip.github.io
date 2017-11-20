@@ -19,4 +19,4 @@ theme = "hugo-theme-nix"
   [[menu.header]]
     name = "posts"
     weight = 0
-    url = "/posts"
+    url = "/blog"

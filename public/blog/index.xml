@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tanner filip</title>
-    <link>https://tannerfilip.org/</link>
-    <description>Recent content on tanner filip</description>
+    <title>Blogs on tanner filip</title>
+    <link>https://tannerfilip.org/blog/</link>
+    <description>Recent content in Blogs on tanner filip</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://tannerfilip.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tannerfilip.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
