@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Update on Discourse &middot; tanner filip </title>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.30.2" />
+
+
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://tannerfilip.org/css/nix.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans|Roboto|Montserrat|Concert+One" rel="stylesheet">
+
+
+
+
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" id="green-terminal" href=https://tannerfilip.org/>visitor@tannerfilip.org ~ $</a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="https://tannerfilip.org/">/home/visitor</a>
+				</li>
+				
+				
+				<li >
+					<a href="../../blog">~/posts</a>
+				</li>
+				
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="container wrapper">
+            <h1><a href="https://tannerfilip.org/blog/update-on-discourse/">Update on Discourse</a></h1>
+            <span class="post-date">Feb 14, 2014 </span>
+            <div class="post-content">
+                
+
+<p>Earlier this week I wrote about the <a href="http://tannerfilip.org/post/the-status-of-discourse/">status of Discourse</a> within the Mozilla community. The next day, we recieved access to Mozilla Labs’ AWS account, and almost immediately started setting Discourse up. We now have <a href="https://discourse.mozilla-community.org/">Discourse running</a>, so please feel free to use it! Occasionally signing doesn’t work the first time. Reload the page and try again if this happens. Jan Bambach is working to make Discourse fit Mozilla’s style, and the theme is shaping up really well. Huge thanks to him for doing this. There was one minor change with our infrastructure. Instead of placing a server in Ireland and Northern California, we put both webheads in Northern California, but in two different availability zones.</p>
+
+<h4 id="what-we-learned">What we learned</h4>
+
+<p><a href="http://imgs.xkcd.com/comics/automation.png">xkcd automation</a></p>
+
+<p>Source: <a href="https://xkcd.com/1319/">xkcd</a></p>
+
+<p>As I mentioned previously, we spent a lot of time trying to automate the installation of Discourse. This didn’t work out so well, and it was ultimately what stopped us from having Discourse running quite a while ago. Yousef and I spent maybe two hours manually installing Discourse on our two webheads, but much more time trying to configure Puppet and/or Docker to install it for us. I totally understand that these would be great if we had to deploy on dozens of servers, but it wasn’t worth our time to do it for just two. I will, though, say that I can’t wait until we have Puppet/Ansible/Chef/whatever working for configuration management. Even changing files on two servers can be tedious, so that should help speed things up for us.</p>
+
+<h4 id="thanks">Thanks!</h4>
+
+<p>I’d like to thank a few people for helping out with Discourse. In alphabetical order…</p>
+
+<ul>
+<li><a href="http://yalam.co.uk">Yousef Alam</a></li>
+<li><a href="http://janbamba.ch">Jan Bambach</a></li>
+<li><a href="https://discourse.mozilla-community.org/users/wdowling/">Will Dowling</a></li>
+<li><a href="http://tomfarrow.info/">Tom Farrow</a></li>
+<li><a href="http://www.loganrosen.com/">Logan Rosen</a></li>
+<li><a href="http://jdotp.org/">JP Schneider</a></li>
+<li><a href="http://mrz.velvet.org/">Matthew Zeier</a></li>
+</ul>
+
+<h4 id="suggestions">Suggestions?</h4>
+
+<p>If you have any problems, suggestions, comments, etc. please let us know! We all hang out in #communityit on IRC, and I’ll make a category on Discourse for suggestions for Discourse. If you want to use Discourse for your community/project/team/etc, also let us know. We’ll have a Bugzilla form shortly to request these, but until we do, I can handle them.</p>
+
+<p>Enjoy!</p>
+
+            </div>
+            
+            <div class="post-comments">
+                
+            </div>
+            
+            <div class="push"></div>
+        </div>
+        <footer class="footer text-center">
+<p>Copyright &copy; 2017 tanner filip -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+    </body>

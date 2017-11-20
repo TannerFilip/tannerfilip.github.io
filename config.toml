@@ -2,6 +2,7 @@ baseURL = "https://tannerfilip.org/"
 languageCode = "en-us"
 title = "tanner filip"
 theme = "hugo-theme-nix"
+relativeUrls = true
 
 [params]
   GithubID = "tannerfilip"
