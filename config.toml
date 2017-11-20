@@ -1,0 +1,22 @@
+baseURL = "https://tannerfilip.org/"
+languageCode = "en-us"
+title = "tanner filip"
+theme = "hugo-theme-nix"
+
+[params]
+  GithubID = "tannerfilip"
+  GitlabId = "tannerfilip"
+  TwitterID = "tannerfilip"
+  LinkedInID = "tannerfilip"
+  TelegramID = "tannerfilip"
+  Name = "tanner filip"
+  HeaderUsername = "visitor"
+  headerhostname = "tannerfilip.org"
+  Email = "tannerfilip@gmail.com"
+  About = "Hi, I'm Tanner. I'm a student at the University of Northern Iowa studying political science. I have been a contributor to the Mozilla project since mid 2008. "
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
