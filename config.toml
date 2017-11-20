@@ -1,4 +1,4 @@
-baseURL = "http://tannerfilip.org.s3-website.us-east-2.amazonaws.com/"
+baseURL = "https://tannerfilip.org/"
 languageCode = "en-us"
 title = "tanner filip"
 theme = "hugo-theme-nix"
