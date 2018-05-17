@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> The Status of Discourse &middot; tanner filip </title>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.30.2" />
+
+
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://tannerfilip.org/css/nix.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans|Roboto|Montserrat|Concert+One" rel="stylesheet">
+
+
+
+
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" id="green-terminal" href=https://tannerfilip.org/>visitor@tannerfilip.org ~ $</a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="https://tannerfilip.org/">/home/visitor</a>
+				</li>
+				
+				
+				<li >
+					<a href="../../blog">~/posts</a>
+				</li>
+				
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="container wrapper">
+            <h1><a href="https://tannerfilip.org/blog/the-status-of-discourse/">The Status of Discourse</a></h1>
+            <span class="post-date">Feb 8, 2014 </span>
+            <div class="post-content">
+                
+
+<p>Discourse is something that Mozillians have been asking for for a while. For those unfamiliar with it, <a href="http://www.discourse.org">Discourse</a> is something like forums combined with mailing lists. I’ve been fortunate enough to work with <a href="https://wiki.mozilla.org/IT/Community">Mozilla Community I.T.</a> in this project.</p>
+
+<h3 id="background">Background</h3>
+
+<p>We started back in early September 2013, planning to install and configure Discourse with Puppet.</p>
+
+<p>Discourse was to be hosted on HP Cloud, using EnterpriseDB for PostgreSQL hosting. HP Cloud stopped offering EnterpriseDB in late 2013, leaving us to set up our own Postgres cluster, something none of us had done before.</p>
+
+<p>We ultimately decided against using Puppet to install, and decided to give Docker a try. That didn’t quite work out either, and we had concerns with how we would update it, and the general security of using containers like Docker. About a week ago we decided against using either Docker or Puppet to install, and doing this either with a Bash script, or just manually.</p>
+
+<h3 id="latest-status">Latest Status</h3>
+
+<p>As of right now, we plan on using Amazon’s AWS to host Discourse, with the help of Mozilla Labs. We will be using EC2 in two locations for web servers, one in Ireland and one in Northern California. In front of these two servers will be an Elastic Load Balancer to balance the load between the two, as the name suggests. On the database side of things, we’ll use AWS’ RDS to host Postgres, and ElastiCache for Redis. Both Postgres and Redis will be in the Northern Calfornia area, as well. We’ll be taking advantage of Multi-AZ for Postgres, so if something were to happen in our availability zone, we’ll have a failback to reduce downtime.</p>
+
+<p>If you’re a visual person like I am, here’s an ugly chart I made.</p>
+
+<p><a href="https://www.lucidchart.com/publicSegments/view/52f02453-e484-4591-91b0-2c230a004eaf/image.png">Direct link</a></p>
+
+<h3 id="looking-ahead">Looking Ahead</h3>
+
+<p>I am anticipating for Discourse to be running, though not entirely customized, by a week from today, February 11. I can’t predict any problems we’ll have installing it, we’ve done it time and time again on several different servers. Once we get our servers, we’ll be working hard to get Discourse to you.</p>
+
+<p>Finally, I’d like to thank jp and Mozilla Labs for helping get us set up with AWS. This is a huge resource to us, and will be extremely helpful.</p>
+
+<p>If you have any questions/comments/concerns/complaints, please get in touch with me. I’m in #communityit on IRC, or just comment here.</p>
+
+            </div>
+            
+            <div class="post-comments">
+                
+            </div>
+            
+            <div class="push"></div>
+        </div>
+        <footer class="footer text-center">
+<p>Copyright &copy; 2017 tanner filip -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+    </body>

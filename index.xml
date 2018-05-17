@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tanner filip</title>
+    <link>https://tannerfilip.org/</link>
+    <description>Recent content on tanner filip</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tannerfilip.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Depression</title>
+      <link>https://tannerfilip.org/blog/depression/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tannerfilip.org/blog/depression/</guid>
+      <description>Few people want to talk about this. It’s easier to just ignore, and hope it goes away. Out of sight out of mind. Except the mind is the problem.
+I’m going to tell you my story. I’ve generally been anxious all my life, so I’ll skip to when I fell apart. A bit of background, this was my senior year of high school. I never was able to eat in the morning, and some mornings even the smell of food would make me get sick.</description>
+    </item>
+    
+    <item>
+      <title>Mozilla at SCALE13x</title>
+      <link>https://tannerfilip.org/blog/mozilla-at-scale13x/</link>
+      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tannerfilip.org/blog/mozilla-at-scale13x/</guid>
+      <description>To put it briefly, the event was amazing. I’m not very good at writing up stuff like this, so I’ll break it down by the day. If you want to skip directly to the event itself, skip to the bottom. A lot of this is just a summary of our days. Most of it focuses on Michaela and I, because we became partners in crime quickly after meeting. ctrl+F “actual expo stuff” will get you to the important stuff.</description>
+    </item>
+    
+    <item>
+      <title>Update on Discourse</title>
+      <link>https://tannerfilip.org/blog/update-on-discourse/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tannerfilip.org/blog/update-on-discourse/</guid>
+      <description>Earlier this week I wrote about the status of Discourse within the Mozilla community. The next day, we recieved access to Mozilla Labs’ AWS account, and almost immediately started setting Discourse up. We now have Discourse running, so please feel free to use it! Occasionally signing doesn’t work the first time. Reload the page and try again if this happens. Jan Bambach is working to make Discourse fit Mozilla’s style, and the theme is shaping up really well.</description>
+    </item>
+    
+    <item>
+      <title>The Status of Discourse</title>
+      <link>https://tannerfilip.org/blog/the-status-of-discourse/</link>
+      <pubDate>Sat, 08 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://tannerfilip.org/blog/the-status-of-discourse/</guid>
+      <description>Discourse is something that Mozillians have been asking for for a while. For those unfamiliar with it, Discourse is something like forums combined with mailing lists. I’ve been fortunate enough to work with Mozilla Community I.T. in this project.
+Background We started back in early September 2013, planning to install and configure Discourse with Puppet.
+Discourse was to be hosted on HP Cloud, using EnterpriseDB for PostgreSQL hosting. HP Cloud stopped offering EnterpriseDB in late 2013, leaving us to set up our own Postgres cluster, something none of us had done before.</description>
+    </item>
+    
+  </channel>
+</rss>
