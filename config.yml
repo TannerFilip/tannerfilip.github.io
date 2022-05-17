@@ -1,0 +1,22 @@
+baseURL: https://tannerfilip.org/
+languageCode: en-us
+theme: papermod
+title: Tanner Filip
+description: Tanner Filip
+
+params:
+  profileMode:
+    enabled: true 
+    title: "Tanner Filip"
+    subtitle: "Hi. I'm Tanner. I'm a cybersecurity analyst at Collins Aerospace."
+  socialIcons:
+    - name: github
+      url: "https://github.com/tannerfilip"
+    - name: linkedin
+      url: "https://linkedin.com/in/tannerfilip"
+    - name: keybase
+      url: "https://keybase.io/tannerfilip"
+    - name: email
+      url: "mailto:site@tannerfilip.org"
+
+
