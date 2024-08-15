@@ -8,7 +8,7 @@ params:
   profileMode:
     enabled: true 
     title: "Tanner Filip"
-    subtitle: "Hi. I'm Tanner. I'm a SOC Analyst at Huntress Labs."
+    subtitle: "Hi. I'm Tanner. I'm a SOC Analyst at Huntress."
   socialIcons:
     - name: github
       url: "https://github.com/tannerfilip"
